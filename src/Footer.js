@@ -14,7 +14,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer_left">
-              <img src="" alt="" className="footer_albumlogo"/>
+              <img src={window.location.origin + '/arjith.jpg'} alt="" className="footer_albumlogo"/>
               <div className="footer_songinfo">
               <h4>Arjith</h4>
               <p>arjith singh
